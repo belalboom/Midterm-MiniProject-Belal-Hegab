@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cats World</title>
+    <style>
+        body { background-color: white; text-align: center; }
+        header { background: orange; padding: 15px; color: white; font-size: 25px; }
+        nav { background: black; padding: 10px; position: sticky; top: 0; width: 100%; }
+        nav a { color: white; text-decoration: none; padding: 10px 15px; display: inline-block; }
+        img { width: 100%; max-width: 500px; height: auto; border-radius: 10px; margin-top: 15px; }
+        footer { background: black; color: white; padding: 15px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+
+    <header>Belal Hegab </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#breeds">Breeds</a>
+        <a href="#care">Care</a>
+        <a href="#facts">Facts</a>
+        <a href="#gallery">Imagies</a>
+    </nav>
+
+    <section id="home">
+        <div class="container">
+            <h2>Adopt cats</h2>
+            <p>Cats are playful, independent, and lovable pets.</p>
+            <img src=https://humaneanimalrescue.org/wp-content/uploads/2019/08/community-cats-copy.jpg alt="Cute Cat">
+        </div>
+    </section>
+
+    <section id="breeds">
+        <div class="container">
+            <h2>Cat Breeds</h2>
+            <p>Different breeds have unique personalities and there are many.</p>
+            <img src=https://www.bluecross.org.uk/sites/default/files/d8/styles/theme_feature_extra_large/public/2022-03/BX153925_Bromsgrove-2021-10-18-1684.jpg.webp?itok=9nJ4NfMp alt="Cat Breed">
+        </div>
+    </section>
+
+    <section id="care">
+        <div class="container">
+            <h2>Cat Care</h2>
+            <p>Feed well and not much, give love, and play with.</p>
+            <img src=https://www.wikihow.com/images/thumb/9/9e/Buy-a-Cat-Step-11-Version-2.jpg/v4-460px-Buy-a-Cat-Step-11-Version-2.jpg alt="Cat Care">
+        </div>
+    </section>
+
+    <section id="facts">
+        <div class="container">
+            <h2>Fun Facts about cats</h2>
+            <p>They are emotional support animals.</p>
+            <img src=https://esacare.com/wp-content/uploads/2019/08/How-to-Register-Your-Cat-as-an-Emotional-Support-Animal_image_1-1030x1030.jpg.webp alt="Fun Cat">
+        </div>
+    </section>
+
+    <section id="gallery">
+        <div class="container">
+            <h2>Images</h2>
+            <div class="gallery">
+                <img src=https://moderncat.com/wp-content/uploads/2024/10/BrownCats_ss_564566962_Rashid-Valitov.jpg alt="Brown Cat">
+                <img src=https://image.petmd.com/files/inline-images/black-cat-breeds-american-shorthair.jpeg?VersionId=FHXiYOmOykNtIdlZ.V5LQC_E8wXzlgyG alt="Black Cat">
+                <img src=https://image.petmd.com/files/inline-images/white-cat-breeds-persian.jpg?VersionId=Z44q4gbJlmDXU.rwogXRL4K_P.8kxDO4 alt="White cat">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Adopt a Cat today</p>
+    </footer>
+
+</body>
+</html>
